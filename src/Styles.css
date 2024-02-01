@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    width: 250px;
+    /* Ajusta el ancho de cada tarjeta según tus necesidades */
+    margin: 10px;
+}
+
+.my-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
